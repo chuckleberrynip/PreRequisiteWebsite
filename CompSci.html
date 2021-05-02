@@ -105,6 +105,21 @@
         li.lisitout { 
             float:left;
         }
+        ul.anim { 
+            opacity: 1;
+            animation-name: fadeIn;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            animation-duration: 2.5s;
+        }
+        @keyframes fadeIn{ 
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
     
     </style>
@@ -112,7 +127,7 @@
     <body>
         <ul class="navbar">
             <li class="nav"><a href="Contact.html">Contact</a></li>
-            <li class="nav"><a href="About">About</a></li>
+            <li class="nav"><a href="About.html">About</a></li>
 			<li class="nav"><a href="CompSci.html">Computer Science</a></li> 
             <li class="nav"><a href="index.html">Home</a></li>
         </ul>
@@ -393,8 +408,8 @@
                 </script>
             </div>
             <div class = "right">
-                <h3 style="text-align:center"><u>Here are the courses you should take, in the order you should take them</u></h3>
-                    <ul style="text-align:center">
+                <h3 style="text-align:center"><u>List of courses:</u></h3>
+                    <ul class ="anim" style="text-align:center">
                         <p id="listoutput">Courses:</p>
                     </ul>
             </div>

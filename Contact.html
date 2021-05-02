@@ -36,6 +36,22 @@
         li.nav {
             float: right;
         }
+        .infom { 
+            opacity: 1;
+            animation-name: fadeIn;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            animation-duration: 1s;
+        }
+        @keyframes fadeIn{
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    
     </style>
         <body>
 		<ul class="navbar">
@@ -44,6 +60,6 @@
 			<li class="nav"><a href="CompSci.html">Computer Science</a></li> 
             <li class="nav"><a href="index.html">Home</a></li>
         </ul>            
-        <h2>If you want to know more about the project then please contact me.</h2>
+        <h2 class="infom">If you want to know more about the project then please contact me.</h2>
         </body>
 </html>
