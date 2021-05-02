@@ -1,0 +1,404 @@
+<!--Mohammed Azad-->
+<!--CISC 4900 PreRequisite Website-->
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8" content="width=device-width, initial-scale=1";>
+        <title>PreRequisite Website</title>
+    </head>
+    <style>
+        * { 
+            box-sizing: border-box;
+        }
+        body {
+            background-color:cornsilk;
+        }
+        ul.navbar {
+            list-style: none;
+            margin:0;
+            padding:10px;
+            overflow:hidden;
+            background-color:maroon;
+            font-size:16px;
+        }
+        li.nav {
+            float: right;
+        }
+
+        li a{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display:block;
+            color: white;
+            text-align:center;
+            padding:16px;
+            text-decoration:none;
+        }
+
+        li a:hover{
+            background-color:gray;
+        }
+        th{
+            padding:10px;
+            border:2px solid maroon;
+            border-radius: 5px;
+            background-color:rgb(236, 233, 233);
+            text-align:center;
+        }
+        th.MinHolder{ 
+            padding:10px;
+            border:2px solid maroon;
+            border-radius: 5px;
+            background-color:rgba(19, 214, 12, 0.685);
+            text-align:center;
+        }
+        td{
+            padding:10px;
+            border:2px;
+            text-align:center;
+            border:2px solid black;
+            border-radius:5px;
+            background-color: wheat;
+        }
+        div.left { 
+            float:left;
+            padding:10px;
+            width:35%;
+        }
+        div.middle { 
+            float:left;
+            padding:10px;
+            width: 25%;
+            padding-top: 12%;
+        }
+        div.right{ 
+            float:right;
+            padding:10px;
+            width:35%;
+            display:inline-block;
+            border: 2px solid black;
+            border-radius: 5px;
+            background:rgb(231, 228, 228);
+            min-height:99%;
+            margin-bottom:0;
+        }
+        p.submition { 
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 17px;
+            text-align:center;
+        }
+        input.hold { 
+            border:2px solid black;
+            border-radius:5px;
+            font-size:15px;
+            position:relative;
+            left:145px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            cursor:pointer;
+            transition-duration: 0.4s;
+        }
+        input.hold:hover{ 
+            background-color: rgba(41, 41, 41, 0.616);
+        }
+        input.hold:active { 
+            background-color:maroon;
+        }
+        li.lisitout { 
+            float:left;
+        }
+
+    
+    </style>
+    <!--The other pages are still a work in progress.-->
+    <body>
+        <ul class="navbar">
+            <li class="nav"><a href="Contact.html">Contact</a></li>
+            <li class="nav"><a href="About">About</a></li>
+			<li class="nav"><a href="CompSci.html">Computer Science</a></li> 
+            <li class="nav"><a href="index.html">Home</a></li>
+        </ul>
+        <h3 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Computer Science B.S: Necessary Courses</h3>
+        <div class = "row"></div>
+            <div class = "left">
+                <table style="width:30%;border: 1px;">
+                    <!-- Inputting the list of courses that are going to be on the table.-->
+                    <!-- It is possible that the values for the minimum grade required is not correct but would provide a student with enough information to confidently click on whether they have taken a course.-->
+                    <tr>
+                        <th>Courses</th>
+                        <th>Full Name</th>
+                        <th>Number of Credits</th>
+                        <th class="MinHolder">Minimum Grade to Satisfy Gradution Requirements</th>
+                        <th>Have Taken?</th>
+                    </tr>
+                    <tr>
+                        <td>ENGL 1010</td>
+                        <td>English Composition I</td>
+                        <td>3 Credits</td>
+                        <td>C-</td>
+                        <td><input type="checkbox" name = "ENGL 1010" id = "ENGL 1010" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>ENGL 1012</td>
+                        <td>English Composition II</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="ENGL 1012" id="ENGL 1012" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>MATH 1201</td>
+                        <td>Calculus I</td>
+                        <td>4 Credits</td>
+                        <td>C-</td>
+                        <td><input type="checkbox" name="MATH 1201" id="MATH 1201" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>MATH 1206</td>
+                        <td>Calculus II</td>
+                        <td>4 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="MATH 1206" id="MATH 1206" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>MATH 2501</td>
+                        <td>Elementary Probability and Statistics</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="MATH 2501" id="MATH 2501" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 1115</td>
+                        <td> Introduction to Programming Using Java</td>
+                        <td>4 Credits</td>
+                        <td>C</td>
+                        <td><input type="checkbox" name="CISC 1115" id="CISC 1115" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 2210</td>
+                        <td>Introduction to Discrete Structures</td>
+                        <td>3 Credits</td>
+                        <td>C</td>
+                        <td><input type="checkbox" name="CISC 2210" id="CISC 2210" autocomplete="off"></td>
+                    </tr>
+                    <tr></tr>
+                        <td>CISC 2820W</td>
+                        <td>Computers and Ethics</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 2820W" id="CISC 2820W" autocomplete="off"></td>
+
+                    </tr>
+                    <tr>
+                        <td>CISC 3115</td>
+                        <td>Introduction to Modern Programming Techniques</td>
+                        <td>4 Credits</td>
+                        <td>C</td>
+                        <td><input type="checkbox" name="CISC 3115" id="CISC 3115" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3130</td>
+                        <td>Data Structures</td>
+                        <td>4 Credits</td>
+                        <td>C</td>
+                        <td><input type="checkbox" name="CISC 3130" id="CISC 3130" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3140</td>
+                        <td>Design and Implementation of Large-Scale Web Applications</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 3140" id="CISC 3140" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3310</td>
+                        <td>Principles of Computer Architecture</td>
+                        <td>4 Credits</td>
+                        <td>C</td>
+                        <td><input type="checkbox" name="CISC 3310" id="CISC 3310" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3220</td>
+                        <td>Analysis of Algorithms</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 3220" id="CISC 3220" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3230</td>
+                        <td>Theoretical Computer Science</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 3230" id="CISC 3230" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 3320</td>
+                        <td>Operating Systems</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 3320" id="CISC 3320" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td>CISC 3142</td>
+                        <td>Programming Paradigms in C++</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 3142" id="CISC 3142" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td>CISC 4900</td>
+                        <td>Independent and Group Projects I</td>
+                        <td>3 Credits</td>
+                        <td>D-</td>
+                        <td><input type="checkbox" name="CISC 4900" id="CISC 4900" autocomplete="off"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class = "middle">
+                <p class="submition">Pressing this button will show what courses you can take and in what order.</p>
+                <input class="hold" type = "submit" id ="pressit" value = "Check what you can get" style="text-align:center;">
+                <script>
+                    //This takes the values from the checklist and inputs them into an array for processing.
+                    var checklist = document.querySelectorAll("input[type=checkbox]");
+                    var submit = document.getElementById("submit");
+                    function getChecked() {
+                        var checked = [];
+                        for (var i = 0; i < checklist.length; i++) {
+                            var checkbox = checklist[i];
+                            if (checkbox.checked) {
+                                checked.push(checkbox.id);
+                            }
+                        }
+                      return checked;
+                    }
+                    //This function essentially is the output function,
+                    //Its purpose is so that when the button is pressed, 
+                    //it would ouput the available courses in the side panel.
+                    pressit.addEventListener("click", function() {
+                      var checked = getChecked();
+                      var newSorted = topoSortWork(lines);
+                      var webout = giveDifferentValues(checked, newSorted);
+                      var outstring = "";
+                      for(var x=0; x<webout.length; x++) { 
+                        outstring += webout[x];
+                        outstring += '\n';
+                        }
+                      if(webout.length==0) { 
+                          document.getElementById("listoutput").innerHTML = "Congratulation you've completed everything\nAnd now you can graduate"
+                      }
+                      else {
+                        var listit = "<li>" + webout.join("</li><li>") + "</li>";
+                        document.getElementById("listoutput").innerHTML = listit;
+                      }
+                      
+                    });
+                    //The actual topological sort function
+                    //Orders the courses so that prerequisites are satisfied for upcoming courses.
+                    function topoSortWork(lines) { 
+                        
+                        var vertex = {};
+                        var checked = {};
+                        var sorted = [];
+                        
+                        var Vert = function(vertName) { 
+                            this.vertName = vertName;
+                            this.nextOne = [];
+                        }
+                        lines.forEach(function (sentit) { 
+                            var precede = sentit[0];
+                            var succeed = sentit[1];
+                            if(!vertex[precede]){
+                                vertex[precede] = new Vert(precede);
+                            }
+                            if(!vertex[succeed]) {
+                                vertex[succeed] = new Vert(succeed);
+                            }
+                            vertex[precede].nextOne.push(succeed);
+                        }
+                        );
+                        
+                        Object.keys(vertex).forEach(function checkit(node, oldOne) { 
+                            var newVert = vertex[node];
+                            var vertName = newVert.vertName;
+                            if(checked[node]) { 
+                                return;
+                            }
+                            if(!Array.isArray(oldOne)) { 
+                                oldOne = [];
+                            }
+                            oldOne.push(vertex);
+                            checked[node] = true;
+                            newVert.nextOne.forEach(function (afterNode) { 
+                                if(oldOne.indexOf(afterNode) >= 0) { 
+                                    throw new Error("Wrong placement");
+                                }
+                                checkit(afterNode.toString(), oldOne.map(function(sentit) { 
+                                    return sentit;
+                                    }
+                                    )
+                                    );
+                            }
+                            );
+                            sorted.unshift(vertName);
+                        }
+                        );
+                        return sorted;
+                    }
+                    //List of courses
+                    //The inner array highlights the relationship between the courses,
+                    //the preceding value would be a necessary prerequisite for the coming course.
+                    //This requires much attention to in order for the software to work.
+                    var lines = [
+                    ['CISC 1115', 'CISC 3115'],
+                    ['ENGL 1010', 'ENGL 1012'],
+                    ['CISC 1115','CISC 2820W'],
+                    ['ENGL 1012', 'CISC 2820W'],
+                    ['CISC 1115', 'CISC 2210'],
+                    ['MATH 1201', 'CISC 2210'],
+                    ['MATH 1201', 'MATH 1206'],
+                    ['MATH 1206', 'MATH 2501'],
+                    ['CISC 3115', 'CISC 3130'],
+                    ['CISC 3130', 'CISC 3140'],
+                    ['CISC 3130', 'CISC 3310'],
+                    ['CISC 3130', 'CISC 3220'],
+                    ['CISC 3130', 'CISC 3230'],
+                    ['CISC 3130', 'CISC 4900'],
+                    ['CISC 3130', 'CISC 3320'],
+                    ['CISC 3310', 'CISC 3320'],
+                    ['CISC 3310', 'CISC 3142']
+                    ];
+                    
+                    //Known values are inputed and the course schedule is already made. 
+                    //So this function returns an array that contains the values relational difference
+                    //of the arrays. More specifically sorted differences checkFirst.
+                    function giveDifferentValues(checkFirst, sorted) { 
+                        var holder = [];
+                        var differentValues = [];
+                        //This is validating the values that are in the first array.
+                        for(var i=0; i < checkFirst.length; i++) { 
+                            holder[checkFirst[i]] = true;
+                        }
+                        for(var j=0; j < sorted.length; j++) { 
+                            if(holder[sorted[j]] == true) { 
+                                delete holder[sorted[j]];
+                            }
+                            else { 
+                                holder[sorted[j]] = true;
+                            }
+                        }
+                        //Pushing the different values into another array
+                        for(var elemname in holder) { 
+                            differentValues.push(elemname);
+                        }
+                        return differentValues;
+                    }
+                </script>
+            </div>
+            <div class = "right">
+                <h3 style="text-align:center"><u>Here are the courses you should take, in the order you should take them</u></h3>
+                    <ul style="text-align:center">
+                        <p id="listoutput">Courses:</p>
+                    </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
