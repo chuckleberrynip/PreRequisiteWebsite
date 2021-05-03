@@ -8,15 +8,28 @@
 		* {
 		  box-sizing: border-box;
 		}
-		body {
+        body {
             background-color:cornsilk;
+			animation: fadeIntoWeb ease 2s;
+			animation-iteration-count: 1;
+			animation-fill-forwards;
         }
+		@keyframes fadeIntoWeb { 
+			0% {
+				opacity:0;
+			}
+			100% {
+				opacity:1;
+				}
+		}
 		ul.navbar {
             list-style: none;
             margin:0;
             padding:10px;
             overflow:hidden;
             background-color:maroon;
+			border: 2px solid black;
+			border-radius: 5px;
             font-size:16px;
         }
 		h1.welcome { 
@@ -166,18 +179,5 @@
 					</div>
 			</div>
 		</div>
-		
-		<!--
-		<h2 class= "major"> Please pick your major </h2>
-		<div class = "menu">
-			<button class = "dropmenu"> Majors </button>
-			  <div class="content">
-				<a href="CompSci.html">Computer Science</a>
-				<a href="#Mathematics.html">Mathematics</a>
-			  </div>
-		</div>
-		<h2 class="minor"> Or for a Minor: </h2>
-		-->
-		
 	</body>
 </html>
