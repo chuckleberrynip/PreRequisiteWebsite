@@ -12,7 +12,18 @@
         }
         body {
             background-color:cornsilk;
+			animation: fadeIntoWeb ease 3s;
+			animation-iteration-count: 1;
+			animation-fill-forwards;
         }
+		@keyframes fadeIntoWeb { 
+			0% {
+				opacity:0;
+			}
+			100% {
+				opacity:1;
+				}
+		}
         ul.navbar {
             list-style: none;
             margin:0;
