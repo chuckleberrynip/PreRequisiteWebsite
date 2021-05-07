@@ -19,7 +19,23 @@
         ["CISC 3310", "CISC 3142"]
     ], 
     "mathematics": [
-        ["course1", "course2"],
-        ["course1", "course3"]
+        ["MATH 1201", "MATH 1206"],
+        ["MATH 1201", "MATH 2101"],
+        ["MATH 1206", "MATH 2201"],
+        ["MATH 1206", "MATH 2001"],
+        ["MATH 1206", "MATH 2011W"],
+        ["MATH 2201", "MATH 3501"],
+        ["MATH 2201", "MATH 4201"],
+        ["MATH 2001", "MATH 4201"],
+        ["MATH 2101", "MATH 4201"],
+        ["MATH 2201", "MATH 2206"],
+        ["MATH 2201", "MATH 4101"],
+        ["MATH 2001", "MATH 3101"],
+        ["MATH 2101", "MATH 2206"],
+        ["MATH 3101", "MATH 4101"],
+        ["MATH 2101", "MATH 3101"],
+        ["ENGL 1010", "ENGL 1012"],
+        ["ENGL 1012", "MATH 2011W"],
+        ["MATH 2101", "MATH 3101"]
     ]                
 }
