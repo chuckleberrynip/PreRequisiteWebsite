@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8" content="width=device-width, initial-scale=1";>
         <title>PreRequisite Website</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src = "courseOrdering.JSON"></script>
     </head>
     <style>
@@ -394,8 +394,8 @@
                     //The correct course ordering is determined here, in order to use a specific ordering of a 
                     //desired major, change the name of the major to the corresponding major in the JSON file
                     
-                    $.getJSON("http://localhost/Users/t1/Desktop/htmlCode/Majors/courseOrdering.JSON, function(courses) { 
-                        lines = courses.mathematics;
+                    $.getJSON("https://chuckleberrynip.github.io/PreRequisiteWebsite/Majors/courseOrdering.JSON", function(courses) { 
+                        lines = courses.computerScience;
                     })
 
                     //Known values are inputed and the course schedule is already made. 
