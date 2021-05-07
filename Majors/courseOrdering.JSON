@@ -1,0 +1,25 @@
+{ 
+    "computerScience": [
+        ["CISC 1115", "CISC 3115"],
+        ["ENGL 1010", "ENGL 1012"],
+        ["CISC 1115","CISC 2820W"],
+        ["ENGL 1012", "CISC 2820W"],
+        ["CISC 1115", "CISC 2210"],
+        ["MATH 1201", "CISC 2210"],
+        ["MATH 1201", "MATH 1206"],
+        ["MATH 1206", "MATH 2501"],
+        ["CISC 3115", "CISC 3130"],
+        ["CISC 3130", "CISC 3140"],
+        ["CISC 3130", "CISC 3310"],
+        ["CISC 3130", "CISC 3220"],
+        ["CISC 3130", "CISC 3230"],
+        ["CISC 3130", "CISC 4900"],
+        ["CISC 3130", "CISC 3320"],
+        ["CISC 3310", "CISC 3320"],
+        ["CISC 3310", "CISC 3142"]
+    ], 
+    "mathematics": [
+        ["course1", "course2"],
+        ["course1", "course3"]
+    ]                
+}
