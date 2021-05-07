@@ -1,0 +1,127 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    background-color:cornsilk;
+    animation: fadeIntoWeb ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-forwards;
+}
+@keyframes fadeIntoWeb { 
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+        }
+}
+ul.navbar {
+    list-style: none;
+    margin:0;
+    padding:10px;
+    overflow:hidden;
+    background-color:maroon;
+    font-size:16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+li.nav {
+    float: right;
+}
+
+li a{
+    font-family: 'Work Sans', sans-serif;
+    display:block;
+    color: white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color:rgb(54, 49, 49);
+    border-radius: 5px;
+}
+th{
+    padding:10px;
+    border:2px solid maroon;
+    border-radius: 5px;
+    background-color:rgb(236, 233, 233);
+    text-align:center;
+}
+th.MinHolder{ 
+    padding:10px;
+    border:2px solid maroon;
+    border-radius: 5px;
+    background-color:rgba(19, 214, 12, 0.685);
+    text-align:center;
+}
+td{
+    padding:10px;
+    border:2px;
+    text-align:center;
+    border:2px solid black;
+    border-radius:5px;
+    background-color: wheat;
+}
+div.left { 
+    float:left;
+    padding:10px;
+    width:35%;
+}
+div.middle { 
+    float:left;
+    padding:2%;
+    width: 25%;
+    padding-top: 12%;
+}
+div.right{ 
+    float:right;
+    padding:10px;
+    width:35%;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    background:rgb(231, 228, 228);
+    min-height:99%;
+    margin-bottom:0;
+}
+p.submition { 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    text-align:center;
+}
+input.hold { 
+    border:2px solid black;
+    border-radius:5px;
+    font-size:15px;
+    position:relative;
+    left:25%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+input.hold:hover{ 
+    background-color: rgba(41, 41, 41, 0.616);
+}
+input.hold:active { 
+    background-color:maroon;
+}
+li.lisitout { 
+    float:left;
+}
+ul.anim { 
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+}
+@keyframes fadeIn{ 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
