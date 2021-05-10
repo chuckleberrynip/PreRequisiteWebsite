@@ -19,3 +19,7 @@ Once that is complete it is important to categorize the information. So to do th
 ![Alt text](guideAsset/BioMap.png?raw=true "Title")
 
 The first that I would do is to get done with the tedious stuff first, so I would configure the JSON file that is provided in the repository to accomodate the courses in the HTML file. Although it may seem initimidating, you should not worry, it is simple. It should follow the syntax exactly as shown: 
+
+![Alt text](guideAsset/biocoursesjson.png?raw=true "Title")
+
+Notice how each array is just representing the line that connects the course in the diagram. There are other courses that are within the JSON file, so please check those out if you want more examples as to how to make the array and please be consistent with the naming convention where camel casing is being used and for majors its just the name of the department , i.e psychology, and for minors it should be the name of the department and then minor added to the end, i.e psychologyMinor. Now, that the hard part is done, the rest is just using the course template that is provided and adding the courses. Working with the HTML in this specific case is kind of like working with an excel file in that it is simple data input. So please go to the Majors folder, or Minors, folder and open the courseTemplate.html.
