@@ -32,13 +32,16 @@ Go to the respective folder that you want, meaning either Major or Minor, and op
 ![Alt text](guideAsset/tableArea.png?raw=true "tableArea")
 
 Please input the information their respctive places and then it should look something like this: 
-![Alt text](guideAsset/BioMap.png?raw=true "Title")
 
 ![Alt text](guideAsset/inputTable.png?raw=true "inputArea")
 
 #### Please make sure that the values in "name" and "id" correspond to the name that you inputted into "Courses" and is found exactly in the same manner in the JSON file.
 
-Once that is done, please scroll down to where the comment //lines = courses.majorName as this the part of the file that interacts with the JSON file. All you have to do is input the desired major name as it is found in the JSON file, meaning the case of the letters count. The line of code in the template is left blank and it looks like : 
+Once that is done, please scroll down to where the comment
+
+"//lines = courses.majorName "
+
+is as this the part of the file that interacts with the JSON file. All you have to do is input the desired major name as it is found in the JSON file, meaning the case of the letters count. The line of code in the template is left blank and it looks like : 
 
   lines = courses. 
 
@@ -46,5 +49,22 @@ Your job is to input the major name after the dot and end with a semi-colon, thi
 
 ![Alt text](guideAsset/toposortlink.png?raw=true "Jquery")
 
-Once that is done, we finish by adding the link to the main homepage.
-The first that I would do is to get done with the tedious stuff first, so I would configure the JSON file that is provided in the repository to accomodate the courses in the HTML file. Although it may seem initimidating, you should not worry, it is simple. It should follow the syntax exactly as shown: 
+After that, we finish by adding the link to the main homepage. This means adding a link that points to the location of the major file. Be wary, there is a section for majors and another section for minorsn here they are respectively:
+
+![Alt text](guideAsset/menuindexbefore.png?raw=true "Majors")
+
+![Alt text](guideAsset/MinorSection.png?raw=true "Minors")
+
+Adding the link means following a certain syntax, and this is using a relative path to point to the file that we want to add. If you have any trouble, just copy the any one of the previous majors and replace the other major with the major that you want.
+
+Example:
+
+![Alt text](guideAsset/menuindexafter.png?raw=true "AddedBio")
+
+Finally, we are done and all we do is upload to the github. The first time of doing this might take the longestt, but it is much quicker the second time around. Excluding the time that it took me to write this document, it took me abotu 30-40 minutes to add a new major.
+
+Here is the GitHub pages [links](https://chuckleberrynip.github.io/PreRequisiteWebsite/) to view your achievement.
+I hope that this was as beneficial for you as it was me.
+
+
+
