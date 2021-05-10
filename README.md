@@ -13,13 +13,35 @@ The table within the website requires five things, however four things are requi
 - Full Course Name. 
 - Number of Credits
 - Minimun Grade so that they can move on.(Note: not the grade a student should strive for, rather the grade that the department deems as minimum for the course to count.
+#### Working with the JSON file: 
+Once the course information gathering is complete it is important to categorize the information. So to do this, make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. Here is my example how I drew out the Biology Major.
 
-Once that is complete it is important to categorize the information. So to do this make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. Here is my example how I drew out the Biology Major.
-
-![Alt text](guideAsset/BioMap.png?raw=true "Title")
+![Alt text](guideAsset/BioMap.png?raw=true "BioMap")
 
 The first that I would do is to get done with the tedious stuff first, so I would configure the JSON file that is provided in the repository to accomodate the courses in the HTML file. Although it may seem initimidating, you should not worry, it is simple. It should follow the syntax exactly as shown: 
 
-![Alt text](guideAsset/biocoursesjson.png?raw=true "Title")
+![Alt text](guideAsset/correctedBioJSON.png?raw=true "JSON")
 
 Notice how each array is just representing the line that connects the courses in the diagram. There are other majors/minors that are within the JSON file, so please check those out if you want more examples as to how to make the array and please be consistent with the naming convention where camel casing is being used for the name of the major/minor, and the courses are uppercase, and for majors its just the name of the department , i.e psychology, and for minors it should be the name of the department and then minor added to the end, i.e psychologyMinor. Once that is done please upload it to github so that the HTML file can access it. Now, that the hard part is done, the rest is just using the course template that is provided and adding the courses. Working with the HTML in this specific case is kind of like working with an excel file in that it is simple data input. So please go to the Majors folder, or Minors, folder and open the courseTemplate.html.
+
+#### Working with the HTML file:
+Go to the respective folder that you want, meaning either Major or Minor, and open the course template HTML file. This file is a blank file that is meant to ease the process of adding new majors. The first thing that I would recommend is to comment in the Major/Minor in the top for memory's sake. Once you do that, there is an area that contains a comment for you to input the name of the department and what type of courses you are going to input. After doing  that, scroll down to the "TABLE AREA", where you will find something like this: 
+
+
+![Alt text](guideAsset/tableArea.png?raw=true "tableArea")
+
+Please input the information their respctive places and then it should look something like this: 
+
+![Alt text](guideAsset/inputTable.png?raw=true "inputArea")
+
+#### Please make sure that the values in "name" and "id" correspond to the name that you inputted into "Courses" and is found exactly in the same manner in the JSON file.
+
+Once that is done, please scroll down to where the comment //lines = courses.majorName as this the part of the file that interacts with the JSON file. All you have to do is input the desired major name as it is found in the JSON file, meaning the case of the letters count. The line of code in the template is left blank and it looks like : 
+
+  lines = courses. 
+
+Your job is to input the major name after the dot and end with a semi-colon, this is how it looks: 
+
+![Alt text](guideAsset/toposortlink.png?raw=true "Jquery")
+
+Once that is done, we finish by adding the link to the main homepage.
