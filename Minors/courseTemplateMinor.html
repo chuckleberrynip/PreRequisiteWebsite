@@ -1,11 +1,6 @@
 <!--Mohammed Azad-->
 <!--CISC 4900 - PreRequisite Website-->
-
-<!--One of the highlighting features of this project is that it is easy to expand the list of courses-->
-<!--So far I have only done pages specifically for major courses, excluding the advanced courses feeling that I would not be able to 
-    properly list out all the courses as my concern was that the main functionality worked. So if someone wants to take up on that they 
-    can fork the project and add more courses to it.-->
-<!--This is a template file that is meant to easily and quickly add more majors or minors, it creates the necessary tables and is connected with a stylesheet that matches the other majors-->
+<!--This is a course template for minors, big change: proper navigation links-->
 
 <!DOCTYPE html>
 <html lang=en>
@@ -16,37 +11,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src = "courseOrdering.JSON"></script>
-        <link rel="stylesheet" href="styles/tablelayout.css">
+        <link rel="stylesheet" href="../Majors/styles/tablelayout.css">
     </head>
         <body>
         <ul class="navbar">
             <li class="nav"><a href="../Contact.html">Contact</a></li>
             <li class="nav"><a href="../About.html">About</a></li>
-			<li class="nav"><a href="CompSci.html">Computer Science</a></li> 
+			<li class="nav"><a href="../Majors/CompSci.html">Computer Science</a></li> 
             <li class="nav"><a href="../index.html">Home</a></li>
         </ul>
-        <h3 style="Work-Sans">Insert Course Name : With Course Specification</h3>
+        <h3 style="Work-Sans">MultiMedia: Courses to obtain Minor</h3>
 		 <div class = "row"></div>
 			<div class = "left">
 				<table style="width:15%;border: 1px; font-size:15px;">
-					<!--I recommend keeping the header the same, but you can do what you like -->
-					<tr>
+					
+                    <tr>
                         <th>Courses</th>
                         <th>Full Name</th>
                         <th>Number of Credits</th>
                         <th class="MinHolder">Minimum Grade to Satisfy Graduation Requirements</th>
                         <th>Have Taken?</th>
 					</tr>
-					<!--To make your life easier, I'm adding enough blank cells for 10 courses, but you can copy them to add more cells for more courses -->
-					<!--NOTE: input id and name should be the same as course number, i.e a course of CISC 1115 should have the same id and name in the input tag, whitespace included---->
-                    <!--The first cell will have placeholder values so you know how its done.-->
-					<tr>
-                        <td>course Name</td>
-                        <td>fullCourseName</td>
-                        <td># Credts</td>
-                        <td>Grade</td>
-                        <td><input type="checkbox" name = "course Name" id = "course Name" autocomplete="off"></td>
-                    </tr>				
                     <tr>
                         <td></td>
                         <td></td>
@@ -215,6 +200,8 @@
                     //a small amount of time to pass so that the JSON can properly update
                     
 					//lines = courses.majorName;
+                    // or for a minor:
+                    //lines = courses.minorName;
                     $.getJSON("https://chuckleberrynip.github.io/PreRequisiteWebsite/courseOrdering.JSON", function(courses) { 
 						lines = courses.;
                     })

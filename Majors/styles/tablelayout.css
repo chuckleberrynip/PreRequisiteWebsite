@@ -6,6 +6,7 @@ body {
     animation: fadeIntoWeb ease 2s;
     animation-iteration-count: 1;
     animation-fill-forwards;
+    font-family: 'Work Sans', sans-serif;
 }
 @keyframes fadeIntoWeb { 
     0% {
