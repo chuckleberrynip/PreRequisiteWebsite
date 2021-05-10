@@ -14,4 +14,8 @@ The table within the website requires five things, however four things are requi
 - Number of Credits
 - Minimun Grade so that they can move on.(Note: not the grade a student should strive for, rather the grade that the department deems as minimum for the course to count.
 
-Once that is complete it is important to categorize the information. So to do this make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. 
+Once that is complete it is important to categorize the information. So to do this make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. Here is my example how I drew out the Biology Major.
+
+![Alt text](guideAsset/BioMap.png?raw=true "Title")
+
+The first that I would do is to get done with the tedious stuff first, so I would configure the JSON file that is provided in the repository to accomodate the courses in the HTML file. Although it may seem initimidating, you should not worry, it is simple. It should follow the syntax exactly as shown: 
