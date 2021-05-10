@@ -49,5 +49,23 @@
         ["CISC 3115", "CISC 3650"],
         ["CISC 3130", "CISC 3660"],
         ["MATH 1201", "CISC 3620"]
+    ],
+    "biology" : [
+        ["BIOL 1001", "BIOL 1002"],
+        ["BIOL 1002", "BIOL 3003"],
+        ["BIOL 3003", "BIOL 3004"],
+        ["BIOL 3003", "BIOL 3011"],
+        ["BIOL 3011", "BIOL 3006"],
+        ["BIOL 1002", "BIOL 3006"],
+        ["BIOL 1002", "BIOL 2010"],
+        ["BIOL 1002", "BIOL 2001"],
+        ["BIOL 2001", "BIOL 2002"],
+        ["ENGL 1010", "ENGL 1012"],
+        ["ENGL 1012", "BIOL 3007W"],
+        ["BIOL 1002", "BIOL 3007W"],
+        ["MATH 1201", "CHEM 1100"],
+        ["CHEM 1100", "CHEM 2100"],
+        ["CHEM 2100", "BIOL 2010"],
+        ["CHEM 2100", "BIOL 2010"]
     ]
 }
