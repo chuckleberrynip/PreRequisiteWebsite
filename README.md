@@ -14,7 +14,7 @@ The table within the website requires five things, however four things are requi
 - Number of Credits
 - Minimun Grade so that they can move on.(Note: not the grade a student should strive for, rather the grade that the department deems as minimum for the course to count.
 #### Working with the JSON file: 
-Once the course information gathering is complete it is important to categorize the information. So to do this, make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. Here is my example how I drew out the Biology Major:
+Once the course information gathering is complete it is important to categorize the information. So to do this, make a list of the courses that you are going to input and then graph them out. I recommend drawing out the graph, so that when inputting the courses into the JSON file, it will heavily expediate the process. Here is my example of how I drew out the Biology Major:
 
 ![Alt text](guideAsset/BioMap.png?raw=true "BioMap")
 
