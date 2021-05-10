@@ -62,7 +62,7 @@ Example:
 
 Finally, we are done and all we do is upload to the github. The first time of doing this might take the longest, but it is much quicker the second time around. Excluding the time that it took me to write this document, it took me abotu 30-40 minutes to add a new major.
 
-Here is the GitHub pages [links](https://chuckleberrynip.github.io/PreRequisiteWebsite/) to view your achievement.
+Here is the GitHub pages [link](https://chuckleberrynip.github.io/PreRequisiteWebsite/) to view your achievement.
 I hope that this was as beneficial for you as it was me.
 
 
