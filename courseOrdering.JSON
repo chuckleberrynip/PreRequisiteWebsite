@@ -1,4 +1,4 @@
-{ 
+{
     "computerScience": [
         ["CISC 1115", "CISC 3115"],
         ["ENGL 1010", "ENGL 1012"],
@@ -17,7 +17,7 @@
         ["CISC 3130", "CISC 3320"],
         ["CISC 3310", "CISC 3320"],
         ["CISC 3310", "CISC 3142"]
-    ], 
+    ],
     "mathematics": [
         ["MATH 1201", "MATH 1206"],
         ["MATH 1201", "MATH 2101"],
@@ -37,5 +37,15 @@
         ["ENGL 1010", "ENGL 1012"],
         ["ENGL 1012", "MATH 2011W"],
         ["MATH 2101", "MATH 3101"]
-    ]                
+    ],
+    "multiMediaMinor" : [
+        ["CISC 1115", "CISC 3115"],
+        ["CISC 3115", "CISC 3130"],
+        ["CISC 3130", "CISC 3610"],
+        ["CISC 3130", "CISC 3630"],
+        ["CISC 3130", "CISC 3620"],
+        ["CISC 3115", "CISC 3650"],
+        ["CISC 3130", "CISC 3660"],
+        ["MATH 1201", "CISC 3620"]
+    ]
 }
