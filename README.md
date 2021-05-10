@@ -9,7 +9,7 @@
 Link to Info: http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/undergraduate/biology/majors_details.php?major=017&div=U&dept_code=09&dept_id=75&mode=data
 
 #### What information should be gathered? 
-@@ -13,35 +13,9 @@ The table within the website requires five things, however four things are requi
+The table within the website requires five things, however four things are requi
 - Full Course Name. 
 - Number of Credits
 - Minimun Grade so that they can move on.(Note: not the grade a student should strive for, rather the grade that the department deems as minimum for the course to count.
