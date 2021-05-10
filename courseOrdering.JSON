@@ -19,6 +19,7 @@
         ["CISC 3310", "CISC 3142"]
     ],
     "mathematics": [
+        ["CISC 1115", "MATH 1201"],
         ["MATH 1201", "MATH 1206"],
         ["MATH 1201", "MATH 2101"],
         ["MATH 1206", "MATH 2201"],
