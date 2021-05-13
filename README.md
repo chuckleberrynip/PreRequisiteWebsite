@@ -65,5 +65,16 @@ Finally, we are done and all we do is upload to the github. The first time of do
 Here is the GitHub pages [link](https://chuckleberrynip.github.io/PreRequisiteWebsite/) to view your achievement.
 I hope that this was as beneficial for you as it was me.
 
+#### Literature Review: 
+  - “HTML & CSS Design and Build Websites" authored by Jon Duckett
+  - “The Eloquent Javascript” authored by Marvin Haverbeke
+  - w3schools.com  HTML, CSS
+  - freecodecamp.org - Javascript
 
-
+* Learning about the sort:
+  - "Learning JavaScript Data Structures and Algorithms" authored by Loaine Groner
+  - "Data Structures & Algorithms with JavaScript" authored by Michael McMillan
+  - https://github.com/marcelklehr/toposort#readme
+  - https://github.com/hapijs/topo#readme
+  - https://gist.github.com/shinout/1232505
+  - 
