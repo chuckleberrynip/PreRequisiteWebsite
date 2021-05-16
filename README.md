@@ -78,3 +78,5 @@ I hope that this was as beneficial for you as it was me.
   - https://github.com/hapijs/topo#readme
   - https://gist.github.com/shinout/1232505
   
+### Accessing the GitHub Pages Link: 
+Click [here!](https://chuckleberrynip.github.com/PreRequisiteWebsite)
